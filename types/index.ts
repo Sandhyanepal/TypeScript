@@ -38,9 +38,18 @@ let shortText: string = longText.substring(0,10)
 console.log(shortText)
 
 
-
-
 let str1: string = "This is the first string."
 let str2: string = "This is the second string."
 let isEqual = (str1 == str2)
 console.log(isEqual)
+
+
+// Type Inference
+
+let message1 = "Hello, TypeScript"
+console.log(message1);
+
+let calculateArea = (l:number, b: number) => {
+    return l*b;
+}
+console.log(calculateArea(5,6))

@@ -30,3 +30,15 @@ var maxNum1 = function (a) {
     return larger;
 };
 console.log(maxNum1([3, 6, 4, 88, 3, 87, 5]));
+// Optional and Default parameter
+// optional
+var greet1 = function (name, id) {
+    if (id) {
+        return "Welcome ".concat(name, " and your id is ").concat(id);
+    }
+    else {
+        return "Welcome ".concat(name, ".");
+    }
+};
+console.log(greet1("Sandhya"));
+console.log(greet1("Sandhya", 1));

@@ -27,3 +27,10 @@ var str1 = "This is the first string.";
 var str2 = "This is the second string.";
 var isEqual = (str1 == str2);
 console.log(isEqual);
+// Type Inference
+var message1 = "Hello, TypeScript";
+console.log(message1);
+var calculateArea = function (l, b) {
+    return l * b;
+};
+console.log(calculateArea(5, 6));
